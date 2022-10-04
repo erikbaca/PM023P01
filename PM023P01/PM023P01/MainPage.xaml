@@ -19,6 +19,19 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+
+
+        <Entry x:Name="txtnombre" Placeholder="Ingrese el nombre" Keyboard="Text"/>
+
+        <Entry x:Name="txtapellidos" Placeholder="Ingrese el apellidos" Keyboard="Text"/>
+
+        <Entry x:Name="txtcelular" Placeholder="Ingrese el celular" Keyboard="Numeric"/>
+
+        <Button x:Name="btnmostrar" Text="Mostrar" Clicked="btnmostrar_Clicked" BackgroundColor="Azure" TextColor="Black"/>
+
+        <Button x:Name="btnsegunda" Text="Ir a segunda pagina" Clicked="btnsegunda_Clicked" BackgroundColor="Azure" TextColor="Black"/>
+
+
     </StackLayout>
 
 </ContentPage>
